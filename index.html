@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi B R | Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="assets/profile.jpg" as="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">VB</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-content">
+                <div class="profile-image-container">
+                    <div class="profile-image">
+                        <img src="assets/profile.jpg" alt="Profile photo of Vaishnavi B R" class="profile-photo" loading="eager" onerror="this.style.display='none'">
+                        <i class="fas fa-user-circle" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <h1 class="hero-name">Vaishnavi B R</h1>
+                <p class="hero-headline">Full Stack Developer | CSE Student | Passionate Coder</p>
+                <p class="hero-bio">
+                    I am a vaishnavi B R from Navkis College of Engineering, passionate about full-stack development. 
+                    I am particularly interested in Python and Java (basics) and enjoy building end-to-end web applications.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a final-year Computer Science and Engineering student at Navkis College of Engineering, 
+                        with a strong passion for full-stack development. My journey in programming began with Python 
+                        and Java, and I've since expanded my skills to include modern web technologies.
+                    </p>
+                    <p>
+                        Currently pursuing my <strong>B.E. in Computer Science and Engineering – Final Year</strong> 
+                        at Navkis College of Engineering, I am constantly learning and building projects that combine 
+                        my interests in both frontend and backend development.
+                    </p>
+                    <p>
+                        I enjoy solving complex problems, working with data, and creating applications that make a 
+                        difference. My goal is to become a proficient full-stack developer and contribute to innovative 
+                        technology solutions.
+                    </p>
+                </div>
+                <div class="education-card">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="education-item">
+                        <h4>B.E. Computer Science and Engineering</h4>
+                        <p class="institution">Navkis College of Engineering</p>
+                        <p class="duration">Final Year</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Bootstrap</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">NoSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Eclipse</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL Workbench</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git/GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card" data-certificate="https://drive.google.com/file/d/11j6XtpDhIW6CvLAnx5GlKPvFebddjnLK/preview">
+                    <div class="cert-icon clickable-cert">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Basics of Python</h3>
+                    <p>Fundamental Python programming concepts and syntax</p>
+                    <p class="cert-click-hint">Click icon to view certificate</p>
+                </div>
+                <div class="cert-card" data-certificate="https://drive.google.com/file/d/13bl_kTvCfudcNovEahgvAJEZEfwqXrHL/preview">
+                    <div class="cert-icon clickable-cert">
+                        <i class="fab fa-udemy"></i>
+                    </div>
+                    <h3>CSS, Bootstrap, JavaScript, and Python Stack</h3>
+                    <p>Udemy</p>
+                    <span class="cert-badge">Udemy</span>
+                    <p class="cert-click-hint">Click icon to view certificate</p>
+                </div>
+                <div class="cert-card"data-certificate="https://drive.google.com/file/d/19RFGyYqL0-AGZ9GoRVf4oITUxrYBQZSV/preview">
+                    <div class="cert-icon clickable-cert">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Design</h3>
+                    <p>Infosys Springboard</p>
+                    <span class="cert-badge">Infosys</span>
+                    <p class="cert-click-hint">Click icon to view certificate</p>
+                </div>
+                </div>
+                <div class="cert-card"data-certificate="https://drive.google.com/file/d/1Ny42SDpogFIzQPoF2JR3r-Siipozl1RM/preview">
+            
+                    <div class="cert-icon clickable-cert">
+                        <i class="fas fa-satellite"></i>
+                    </div>
+                    <h3>Geo-Data Sharing and Cyber Security</h3>
+                    <p>ISRO</p>
+                    <span class="cert-badge">ISRO</span>
+                    <p class="cert-click-hint">Click icon to view certificate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Fake News Detection using Machine Learning</h3>
+                        <p>Developed a machine learning model to classify real vs fake news articles using natural language processing techniques.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">TensorFlow</span>
+                        </div>
+                        <a href="https://github.com/" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Bank Management System using Java</h3>
+                        <p>Built a desktop application with features for deposit, withdrawal, and comprehensive account management using Java Swing and MySQL.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Swing</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Eclipse</span>
+                        </div>
+                        <a href="https://github.com/Vaishu552003/ATM-Stimulator" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Customer Management System</h3>
+                        <p>CRUD-based system to manage customer data efficiently with full database integration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">CRUD</span>
+                        </div>
+                        <a href="https://github.com/Vaishu552003/Customer-ms" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">I'm open to opportunities and collaborations. Let's connect!</p>
+            <div class="contact-grid">
+                <a href="mailto:vaishnavishettyvaishu79@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>vaishnavishettyvaishu79@gmail.com</p>
+                </a>
+                <a href="tel:6362627908" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>6362627908</p>
+                </a>
+                <a href="https://www.linkedin.com/in/vaishnavi-b-r-a018b2312" class="contact-card" target="_blank">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>Vaishnavi B R</p>
+                </a>
+                <a href="https://github.com/Vaishu552003" class="contact-card" target="_blank">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>Vaishu552003</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Vaishnavi B R. All rights reserved.</p>
+            <p class="footer-subtext">Built with passion and dedication</p>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2 id="certificateTitle">Certificate</h2>
+            </div>
+            <div class="modal-body">
+                <iframe id="certificateFrame" src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
